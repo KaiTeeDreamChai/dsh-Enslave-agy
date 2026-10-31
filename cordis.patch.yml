@@ -1,0 +1,16 @@
+# dsh-enslave-agy —— 哈基米go work！
+#
+# 把 Antigravity CLI (agy) 注册成 DSH 的 subagent provider。
+# 挂载后 subagent 工具就能通过 provider: agy 把任务派给 agy 干活。
+#
+# 可选配置：
+#   - id: dsh-enslave-agy
+#     config:
+#       providerName: agy        # 注册的 provider 名，默认 agy
+#       agyPath: /custom/path   # 默认 ~/.local/bin/agy
+#       timeoutMs: 600000       # 单任务超时，默认 10 分钟
+
+- insert:
+    - id: dsh-enslave-agy
+      name: dsh-enslave-agy
+      config: {}
