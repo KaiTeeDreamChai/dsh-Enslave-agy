@@ -1,4 +1,4 @@
-# dsh-enslave-agy
+# dsh-enslave-agy / 哈基米go work！
 
 把 [Antigravity CLI](https://antigravity.google)（`agy`）接进 DeepSeek Harness，作为可并行的子代理干活。
 
@@ -25,7 +25,7 @@ cp -R lib package.json cordis.patch.yml ~/.dsh/profiles/desktop/node_modules/dsh
 
 然后重启 DSH。
 
-## 用
+## 开始奴役哈基米 (Gemini)
 
 左侧栏出现「哈基米go work！」，点开：
 
@@ -64,4 +64,4 @@ cp -R lib package.json cordis.patch.yml ~/.dsh/profiles/desktop/node_modules/dsh
 
 ## License
 
-Beerware。见 [LICENSE](LICENSE)。
+如果你觉得这项目有点用的话可以请我喝啤酒 [LICENSE](LICENSE)。
